@@ -16,10 +16,5 @@ def output_array(n)
 end
 
 def return_string_array(n)
-  narray = []
-  
-  while n.length >= 0 do
-    narray.unshift("n[n.length]")
-  end
-  return narray
+n.map(&:to_s)
 end

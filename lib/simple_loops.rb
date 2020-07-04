@@ -19,7 +19,7 @@ def return_string_array(n)
   narray = []
   
   while n.length >= 0 do
-    narray << "#{n[n.length]}"
+    narray.unshift("#{n[n.length]}")
   end
   return narray
 end

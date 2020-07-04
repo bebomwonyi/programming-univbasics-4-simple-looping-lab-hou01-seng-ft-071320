@@ -18,7 +18,7 @@ end
 def return_string_array(n)
   narray = []
   
-  while n.length > 0 do
+  while n.length >= 0 do
     narray << "#{n[n.length]}"
   end
   return narray
